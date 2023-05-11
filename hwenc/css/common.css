@@ -1,0 +1,13 @@
+body {
+  font-size: 16px;
+  color: #111;
+  font-family: "Raleway", "Noto Sans KR", "돋움";
+  /*kcc 폰트 링크가 끊어지면, 차선책으로 Noto로 나올수 있게 대비한 설정*/
+  /*영어는 한글 디자인해서 못만듦. 영문폰트 쓸때는 영문 먼저쓰자. */
+  font-weight: 400;
+  /* 몇몇 태그들은 부모의 속성을 물려받지 않는 것들도 있다. a태그가 대표적 */
+}
+a {
+  text-decoration: none;
+  color: inherit; /*부모의 속성을 a태그가 상속 받을수있다.*/
+}
