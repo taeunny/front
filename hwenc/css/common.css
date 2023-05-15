@@ -6,8 +6,25 @@ body {
   /*영어는 한글 디자인해서 못만듦. 영문폰트 쓸때는 영문 먼저쓰자. */
   font-weight: 400;
   /* 몇몇 태그들은 부모의 속성을 물려받지 않는 것들도 있다. a태그가 대표적 */
+  min-height: 2000px;
 }
 a {
   text-decoration: none;
   color: inherit; /*부모의 속성을 a태그가 상속 받을수있다.*/
+}
+
+.container {
+  width: 1200px;
+  /* margin-left: auto;
+  margin-right: auto;  아래가 줄여쓴것*/
+  margin: 0 auto;
+  /* outline: 1px solid #f00; */
+}
+/* margin-left,right -> auto 처리하면 알아서 맞춰서 가운데로 보내버림(모니터 사이즈에 관계없이 알아서 계산해줌) */
+/* CSS 시계방향으로 돌아감 (오른쪽 -> 왼쪽)*/
+/* margin 100px auto -> 상 100px, 우 auto */
+h2 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 50px;
 }

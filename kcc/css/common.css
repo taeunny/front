@@ -1,0 +1,18 @@
+body {
+  font-size: 15px;
+  color: #111;
+  font-family: "Raleway", "Noto Sans KR", "돋움";
+  font-weight: 2000px;
+  min-height: 2000px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}

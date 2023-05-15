@@ -1,0 +1,29 @@
+.list .depth02 {
+  text-align: center;
+  padding-top: 10px;
+}
+.list .depth02 li a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  transition: all 0.25s ease;
+}
+
+.popup {
+  display: none;
+  position: fixed;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  left: 100px;
+  top: 100px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+}
+.popup .content {
+  width: 400px;
+  height: 400px;
+  background-color: #1b90be;
+  margin-bottom: 10px;
+}/*# sourceMappingURL=layout.css.map */
